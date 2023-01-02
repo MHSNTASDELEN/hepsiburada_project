@@ -1,1 +1,112 @@
+:root{
+  --primary-color:#F5630A;
+}
 
+*{
+    box-sizing:border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+  }
+  
+  .resim1{
+    display:flex;
+    /* flex: 1 0 21%; Anna*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    float:initial;
+    
+  }
+  
+  .pc {
+    min-width:300px;
+    max-width:400px;
+    border: 1px solid lightgray;
+    border-radius:5px;
+  }
+  .pc img {
+    width: 100%;
+  }
+  .pc-content {
+    text-transform:capitalize;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  /* #F5630A */
+  .label {
+    background-color:var(--primary-color);
+    background:var(--primary-color);
+    transition: width 2s, height 2s, transform 2s;
+    color: white;
+    display:inline-block;
+    padding:4px;
+    border:1px solid var(--primary-color);
+    border-radius:5px;
+    cursor:pointer;
+  }
+
+  .rating-container {
+    display:flex;
+    justify-content: flex-start;
+  }
+
+  .rating-start-filled {
+    font-size: 1rem;
+    color:var(--primary-color);
+    margin:2px;
+  }
+
+  .btn {
+    background-color: var(--primary-color);
+    color:#fff;
+    font-size: 25px;
+    border:none;
+    border-radius: 5px;
+    width: 95%;
+    height:40px;
+  }
+  .btn {
+  padding:-20px;
+  margin-bottom:10px;
+  cursor: pointer;
+  }
+  p {
+    color:lightgray;
+  }
+  /* Muhsin icin odev: First word siyah yah pseudo selector kullanarak */
+  p::first-letter {
+    color: black;
+  }
+
+  .bag{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    text-transform: none;
+  }
+  .label:hover{
+    color:chocolate;
+    transition:0.5s;
+    font-weight: bolder;
+  }
+  .label:hover{
+    background-color: red;
+  }
+  .label:hover{
+    width: 300px;
+    height: 200px;
+    transform: rotate(180deg);
+  
+  }
+  .btn:hover{
+    background-color: deeppink;
+    transition: 1s;
+  }
