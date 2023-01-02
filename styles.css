@@ -1,1 +1,103 @@
 
+*{
+    box-sizing:border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+  }
+  
+  .resim1{
+    background-color:rgba(255,255,255, 0.7);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    float:initial;
+  }
+  
+  .pc {
+    min-width:300px;
+    max-width:400px;
+    border:1px solid gray;
+    border-radius:5px;
+  }
+  .pc img {
+    width: 100%;
+  }
+  .pc-content{
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  .label {
+    background-color: orangered;
+    color: white;
+    display:inline-block;
+    padding: 8px 4px;
+    border:1px solid orangered;
+    border-radius:5px;
+    margin-left:10px;
+    cursor:pointer;
+  }
+  i {
+  font-size:20px;
+  color:orangered;
+  margin:10px;
+  }
+  .btn {
+    background-color: orangered;
+    color:#fff;
+    font-size: 25px;
+    border:none;
+    border-radius: 5px;
+    width: 95%;
+    height:40px;
+  }
+  .btn{
+  padding:-20px;
+  margin-left:10px;
+  margin-bottom:10px;
+  cursor: pointer;
+  }
+  p{
+    margin-left:10px;
+  }
+  h4{
+    margin-left:10px;
+  }
+  .bag{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    text-transform: none;
+  }
+  .label:hover{
+    color:chocolate;
+    transition:0.5s;
+    font-weight: bolder;
+  }
+  .label:hover{
+    background-color: red;
+  }
+  .label:hover{
+    width: 300px;
+    height: 200px;
+    transform: rotate(180deg);
+  
+  }
+  .label{
+    width: 300px;
+    height: 50px;
+    background: orangered;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  .btn:hover{
+    background-color: deeppink;
+    transition: 1s;
+  }
