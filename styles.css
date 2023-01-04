@@ -17,15 +17,15 @@
   
   .resim1{
     display:flex;
-    /* flex: 1 0 21%; Anna*/
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 10px;
     float:initial;
-    
+    padding: 10px;
   }
   
   .pc {
+    flex: 1 0 21%;
     min-width:300px;
     max-width:400px;
     border: 1px solid lightgray;
